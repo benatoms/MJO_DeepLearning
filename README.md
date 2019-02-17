@@ -11,6 +11,9 @@ defined within mjo_CNN.py
 MJOData.py is only used to load the data from the files (all of which are not included, since the files total
 300 gigabytes in size).
 
+An instance of the trained model is contained within the checkpoint file, which can be loaded using code within the
+trainer_MJO_cnn.py file (the load_model() function).
+
 If you would like to discuss the data used to train the model or gain access to demo files, please contact me directly at ben.toms@colostate.edu.
 
 Thank you for your interest...
